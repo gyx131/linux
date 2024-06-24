@@ -3,7 +3,7 @@
 # 定义变量
 INTERFACE="eth0"  # 修改为你的网络接口名称
 LIMIT_PORT="80"  # 限制的目标端口号
-LIMIT_SPEED="1Mbit"  # 针对目标端口的限速设置
+LIMIT_SPEED="0.1Mbit"  # 针对目标端口的限速设置
 WHITE_LIST_IP=("192.168.1.2" "192.168.1.3")  # 白名单IP数组，按需添加
 
 # 清理之前的设置
